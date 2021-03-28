@@ -10,6 +10,22 @@ Built with:
 
 ## FrontEnd
 
+React Snippets
+
+```js
+const [data,setData]=useState({
+        name:""
+    })
+    
+
+    function handle(e){
+        const newdata={...data}
+        newdata[e.target.id]=e.target.value
+        setData(newdata)
+           
+    }
+ ```
+
 Connecting the React Client to the Express API. 
 On entering the value and pressing submit, a request should be sent to the backend and fetch the data 
 
@@ -137,5 +153,18 @@ app.post("/api",function(req,res){
 
 })
 ```
+## TESTCASES
+
+As 5 is present in input, So the result is "PASS"
+
+![Capture7](https://user-images.githubusercontent.com/61303893/112761674-ed9cf200-9019-11eb-9c7f-730ffae395fd.PNG)
+
+
+As 3 is not present in input, So the result is "FAIL"
+
+
+![Capture8](https://user-images.githubusercontent.com/61303893/112761718-3c4a8c00-901a-11eb-8c35-1960f2dbe902.PNG)
+
+
 
 
