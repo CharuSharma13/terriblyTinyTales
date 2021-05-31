@@ -1,6 +1,10 @@
 # terriblyTinyTales
 Insert and Fetch Data using node js Back-end &amp; Display records on react js front-end.
 
+Built with:
+* Node.js
+* React.js
+
 [![CircleCI](https://circleci.com/gh/cezerin/cezerin/tree/master.svg?style=svg)](https://circleci.com/gh/cezerin/cezerin/tree/master)
 
 Design and build the following:
@@ -22,12 +26,11 @@ In the above, the roll number is the value to be passed, and it will return pass
 
 
 
-Built with:
-* Node.js
-* React.js
 
-###frontend link (deployed on Netlify) - # https://ch-tiny.netlify.app/
-###backend link  (deployed on Heroku) - #  https://glacial-fjord-33512.herokuapp.com
+
+## frontend link (deployed on Netlify) - # @<a href="https://ch-tiny.netlify.app/">Frontend</a>
+
+## backend link  (deployed on Heroku) - #  @<a href="https://glacial-fjord-33512.herokuapp.com">backend</a>
 
 
 ## FrontEnd
