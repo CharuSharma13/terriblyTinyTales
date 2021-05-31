@@ -157,7 +157,7 @@ let roll=[{name:['5','20','25','32','37','38','40','47','49','50']}]
 
 app.post("/api",function(req,res){
 	var flag=0;
-	for(let i=0;i<18;i++){
+	for(let i=0;i<10;i++){
 	let result=roll.find(rolls=>rolls.name[i]==req.body.name);
 	if(result){
 		flag=1;
