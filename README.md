@@ -3,10 +3,32 @@ Insert and Fetch Data using node js Back-end &amp; Display records on react js f
 
 [![CircleCI](https://circleci.com/gh/cezerin/cezerin/tree/master.svg?style=svg)](https://circleci.com/gh/cezerin/cezerin/tree/master)
 
+Design and build the following:
+
+1. A frontend that accepts a comma-separated list of roll numbers (front end must be in React or Nextjs)
+
+2. On entering the value and pressing submit, a request should be sent to the backend (write a backend API in node js to accept this from the frontend)
+
+3. From the backend, you have to call an external API to get the pass/fail result, as follows:
+http://proedge.me/test.php?rollnumber=123
+
+In the above, the roll number is the value to be passed, and it will return pass or fail results. This external API only accepts 1 roll number per call.
+
+4. From the backend, when all the roll number results are known, return the results to the frontend
+
+5. On the frontend, display the roll numbers and their result in a tabular format
+
+6. Run the above for this input: 5,6,9,12,18,20,25,30,32,36,37,38,40,42,45,47,49,50
+
+
+
 Built with:
 * Node.js
 * React.js
-* Express
+
+###frontend link (deployed on Netlify) - # https://ch-tiny.netlify.app/
+###backend link  (deployed on Heroku) - #  https://glacial-fjord-33512.herokuapp.com
+
 
 ## FrontEnd
 
