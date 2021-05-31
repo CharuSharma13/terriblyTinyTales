@@ -28,9 +28,9 @@ In the above, the roll number is the value to be passed, and it will return pass
 
 
 
-## frontend link (deployed on Netlify) - # @<a href="https://ch-tiny.netlify.app/">Frontend</a>
+### frontend link (deployed on Netlify) - @<a href="https://ch-tiny.netlify.app/">Frontend</a>
 
-## backend link  (deployed on Heroku) - #  @<a href="https://glacial-fjord-33512.herokuapp.com">backend</a>
+### backend link  (deployed on Heroku) -  @<a href="https://glacial-fjord-33512.herokuapp.com">backend</a>
 
 
 ## FrontEnd
