@@ -60,7 +60,7 @@ On entering the value and pressing submit, a request should be sent to the backe
 function submit(e){
         e.preventDefault();
         var OPTIONS = {
-            url: "http://localhost:4000/api",
+            url: "https://glacial-fjord-33512.herokuapp.com/api/",
             method: "POST",
             data:{name:data.name},
             headers: {
@@ -153,7 +153,7 @@ rollnumber is the value to be passed, and it will return pass or fail results. T
 ```js
 
 
-var roll=[{name:['5','6','9','12','18','20','25','30','32','36','37','38','40','42','45','47','49','50']}]
+let roll=[{name:['5','20','25','32','37','38','40','47','49','50']}]
 
 app.post("/api",function(req,res){
 	var flag=0;
