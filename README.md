@@ -180,15 +180,8 @@ app.post("/api",function(req,res){
 ```
 ## TESTCASES
 
-As 5 is present in input, So the result is "PASS"
+![Capture99](https://user-images.githubusercontent.com/61303893/120162390-f4acd000-c215-11eb-9e06-1838a065439a.PNG)
 
-![Capture7](https://user-images.githubusercontent.com/61303893/112761674-ed9cf200-9019-11eb-9c7f-730ffae395fd.PNG)
-
-
-As 3 is not present in input, So the result is "FAIL"
-
-
-![Capture8](https://user-images.githubusercontent.com/61303893/112761718-3c4a8c00-901a-11eb-8c35-1960f2dbe902.PNG)
 
 
 
